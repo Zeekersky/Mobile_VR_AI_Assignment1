@@ -4,6 +4,7 @@
 
 Solution of Assignment 1.
 Question 1: Please do the following in Unity 3D:
+
   a. Add a transparent sheet above a plane next to a cube and ensure it does not interfere
     with the physics of the cubes. The transparent sheet should be semi-transparent (alpha
     < 0.5).
@@ -13,7 +14,8 @@ Question 1: Please do the following in Unity 3D:
   d. Provide a brief explanation of how you set up the transparency, lighting, and shadow
     casting for the cubes and particle system in Unity.
 
-Question 2: Please do the following in Unity 3D: [2 marks]
+Question 2: Please do the following in Unity 3D:
+
   a. Take a cube and a plane and put the cube on the plane.
   b. Please give an appropriate color to the cube (yellow) and the plane (green).
   c. Now, please convert the cube into 5 cubes on the plane, where each cube is placed at a
@@ -21,7 +23,8 @@ Question 2: Please do the following in Unity 3D: [2 marks]
   d. Now, raise these cubes to a height above the plane and apply physics such that all 5
     cubes fall on the plane upon running the game. 
 
-Question 3: Please do the following in Unity 3D: [4 marks]
+Question 3: Please do the following in Unity 3D:
+
   a. Take a cube and a plane and put the cube on the plane. Please give an appropriate color
     to the cube (yellow) and the plane (green).
   b. Now, make the cube move on the plane such that by pressing the left or right key, the
