@@ -18,6 +18,7 @@ public class CubeMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // b. Move the cube forward and backward and also rotate clockwise and anticlockwise
         if (Input.GetKey(KeyCode.UpArrow))
             transform.position += transform.forward * speed * Time.deltaTime;
 
@@ -30,6 +31,7 @@ public class CubeMove : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
             transform.RotateAround(transform.position, Vector3.up, omega * Time.deltaTime);
 
+        // c. Jump the cube
         if (Input.GetKey(KeyCode.Space) && onPlane)
         {
             GetComponent<Rigidbody>().AddForce(Vector3.up * force, ForceMode.Impulse);
